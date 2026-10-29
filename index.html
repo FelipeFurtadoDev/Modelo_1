@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thaís Nogueira · Psicologa</title>
+    <meta name="description" content="Página demonstrativa de apresentação profissional para psicólogo(a).">
+    <meta name="theme-color" content="#F6F3EC">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <p class="demo-banner"></p>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#inicio" aria-label="[Nome da Psicóloga], ir para o início">
+                <span class="brand-mark" aria-hidden="true"></span>
+                <span class="brand-text">Thaís Nogueira<small>Psicologia · CRP [00/00000]</small></span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+                <span class="menu-toggle-label">Menu</span>
+            </button>
+
+            <nav aria-label="Principal">
+                <ul id="menu-principal" class="nav-list">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#atuacao">Atuação</a></li>
+                    <li><a href="#atendimento">Atendimento</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+
+        <section id="inicio" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <p class="eyebrow">Psicologia · Governador Valadares/MG</p>
+                    <h1>Um espaço de escuta, com respeito ao seu tempo.</h1>
+                    <p class="lead">Sou Thaís Nogueira, Psicóloga. Se você deseja conhecer o trabalho ou tirar dúvidas
+                        sobre os atendimentos, será um prazer conversar.</p>
+                    <a class="btn" href="#contato" data-whatsapp>Entrar em contato</a>
+                </div>
+
+                <figure class="hero-figure">
+                    <div class="hero-art">
+                        <!-- IMAGEM ILUSTRATIVA (espaço reservado).
+                        Para usar uma foto própria e autorizada, apague o <svg> abaixo e coloque:
+                        <img src="img/minha-foto.jpg" alt="Descreva a foto" width="600" height="750" loading="eager">
+                        Salve a foto na pasta "img" (use JPG/WebP com menos de 200 KB). -->
+                        <svg viewBox="0 0 600 750" width="600" height="750" role="img"
+                            aria-label="Ilustração abstrata em tons de verde e areia, espaço reservado para foto profissional">
+                            <rect width="600" height="750" fill="#F1DDE2" />
+                            <circle cx="430" cy="210" r="150" fill="#D9B1BC" />
+                            <path d="M0 520 C150 420 300 600 600 470 L600 750 L0 750 Z" fill="#C18A9A" />
+                            <path d="M0 620 C200 540 380 700 600 600 L600 750 L0 750 Z" fill="#895365" />
+                        </svg>
+                        <img src="img/Mulher confiante em traje profissional.png" alt="Foto profissional Thaís"
+                            class="hero-foto">
+                    </div>
+                    <figcaption>Imagem ilustrativa. Substituir por foto autorizada.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <div class="container narrow">
+                <h2>Sobre</h2>
+                <p class="placeholder">[Biografia: texto breve, em primeira pessoa, a ser escrito pela psicóloga.]</p>
+                <dl class="facts">
+                    <div>
+                        <dt>Formação</dt>
+                        <dd class="placeholder">Bacharel em Psicologia - Universidade Vale do Rio Doce 2025</dd>
+                    </div>
+                    <div>
+                        <dt>Registro profissional</dt>
+                        <dd class="placeholder">[CRP 00/00000]</dd>
+                    </div>
+                    <div>
+                        <dt>Trajetória</dt>
+                        <dd class="placeholder">Trabalho clinico 4 meses</dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
+        <section id="atuacao" class="section alt">
+            <div class="container">
+                <h2>Atuação</h2>
+                <p class="section-intro">Áreas e públicos a serem definidos pela profissional.</p>
+                <ul class="cards">
+                    <li class="card">
+                        <h3>[Público 1]</h3>
+                        <p class="placeholder">[Ex.: adultos. Confirmar antes de publicar]</p>
+                    </li>
+                    <li class="card">
+                        <h3>[Público 2]</h3>
+                        <p class="placeholder">[Descrição a definir]</p>
+                    </li>
+                    <li class="card">
+                        <h3>[Área de atuação 1]</h3>
+                        <p class="placeholder">[Descrição a definir]</p>
+                    </li>
+                    <li class="card">
+                        <h3>[Área de atuação 2]</h3>
+                        <p class="placeholder">[Descrição a definir]</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="abordagem" class="section">
+            <div class="container narrow">
+                <h2>Abordagem e modo de trabalho</h2>
+                <p class="placeholder">[Abordagem teórica adotada, se houver, descrita em linguagem simples.]</p>
+                <p class="placeholder">[Como costumam ser os encontros: duração, frequência combinada e sigilo, conforme
+                    o Código de Ética.]</p>
+                <p>Cada pessoa tem um ritmo próprio. Por isso, não há promessas de resultados nem de quantidade de
+                    sessões.</p>
+            </div>
+        </section>
+
+        <section id="atendimento" class="section alt">
+            <div class="container">
+                <h2>Atendimento</h2>
+                <ul class="cards">
+                    <li class="card">
+                        <h3>Presencial</h3>
+                        <p class="placeholder">[Disponível? Endereço completo]</p>
+                    </li>
+                    <li class="card">
+                        <h3>On-line</h3>
+                        <p class="placeholder">[Disponível? Plataforma utilizada]</p>
+                    </li>
+                    <li class="card">
+                        <h3>Cidade e região</h3>
+                        <p class="placeholder">[Cidade/UF e bairros ou regiões]</p>
+                    </li>
+                    <li class="card">
+                        <h3>Horários e valores</h3>
+                        <p class="placeholder">[Informar somente se a psicóloga desejar]</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="faq" class="section">
+            <div class="container narrow">
+                <h2>Perguntas frequentes</h2>
+                <details>
+                    <summary>Como faço o primeiro contato?</summary>
+                    <p>Pelo botão de WhatsApp desta página. A mensagem sugerida é neutra, e não é necessário contar nada
+                        pessoal por mensagem.</p>
+                </details>
+                <details>
+                    <summary>Como funciona o agendamento?</summary>
+                    <p class="placeholder">[Descrever: dias, horários, confirmação e política de remarcação.]</p>
+                </details>
+                <details>
+                    <summary>O atendimento é presencial ou on-line?</summary>
+                    <p class="placeholder">[Descrever as modalidades disponíveis.]</p>
+                </details>
+                <details>
+                    <summary>E as dúvidas administrativas (pagamento, recibo, convênios)?</summary>
+                    <p class="placeholder">[Descrever formas de pagamento, emissão de recibo e convênios, se houver.]
+                    </p>
+                </details>
+            </div>
+        </section>
+
+        <section id="contato" class="section cta">
+            <div class="container narrow center">
+                <h2>Vamos conversar?</h2>
+                <p>Para saber mais sobre os atendimentos, envie uma mensagem.</p>
+                <a class="btn btn-light" href="#contato" data-whatsapp>Chamar no WhatsApp</a>
+                <p id="whatsapp-aviso" class="aviso" role="status" aria-live="polite"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p><strong>Thaís Nogueira</strong> · Psicóloga · CRP [00/00000]</p>
+            <p>Governador Valadares/MG · [E-mail de contato, se desejar]</p>
+            <p><a href="https://site.cfp.org.br/" target="_blank" rel="noopener noreferrer">Conselho Federal de
+                    Psicologia</a></p>
+            <p class="small">Site demonstrativo com pessoa fictícia. Conteúdo sujeito à validação da profissional
+                conforme as normas do Sistema Conselhos de Psicologia. Este site não coleta dados nem usa rastreadores.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
